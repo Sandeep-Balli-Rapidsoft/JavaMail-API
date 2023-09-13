@@ -7,8 +7,8 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		GEmailSender geMailSender = new GEmailSender();
-		String to = "manajitpradhan@gmail.com";
-		String from = "sandeepballi.rapidsoft@gmail.com";
+		String to = "recipientemail@gmail.com";
+		String from = "youremail@gmail.com";
 		String subject = "Test Subject";
 		String text = "Test Test";
 		boolean flag = geMailSender.sendEmail(to, from, subject, text);
